@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgba(34, 40, 49, 0) 0%, #222831 100%), url(../img/bg.jpg);
+    max-width: 1440px;
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.head {
+    display: flex;
+}
+
+.logo {
+    max-width: 140px;
+    display: block;
+    margin-left: 100px;
+    padding-top: 45px;
+}
+
+.nav-menu {
+    margin: auto;
+}
+
+.nav-list {
+    display: flex;
+    padding: 55px 0 0 0;
+    min-width: 433px;
+}
+
+.nav-list li {
+    margin: auto;
+}
+
+.nav-list a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:  #FFFFFF;
+}
+
+.nav-list span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1)
+}
+
+.sign-btn {
+    background: rgba(31, 74, 168, 1);
+    width: 160px;
+    border: none;
+    border-radius: 39px;
+    margin: 40px 100px 0 0;
+}
+
+.sign-btn a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+    max-width: 747px;
+    margin: auto;
+    padding-top: 129px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text {
+    max-width: 782px;
+    margin: auto;
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.055em;
+}
+
+section {
+   background-color: #222831;
+}
+
+.ticket-window {
+    max-width: 1240px;
+    min-height: 278px;
+    margin: auto;           
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+}
+
+.nav {
+    padding: 20px 0 0 44px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 50px 0 0;
+    color: rgba(136, 138, 162, 1)
+}
+
+.line {
+    max-width: 1152px;    
+    padding-left: 44px;
+}
+
+.form-check-label {
+    padding-left: 15px;
+}
+
+.form-check.form-check-inline {
+    margin-left: 44px;
+}
+
+.radio-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.radio {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.dropdown {
+    padding-top: 32px;
+    padding-right: 52px;
+}
+
+.dropdown-toggle {
+    background-color: white;
+    border: none;
+    color: rgba(31, 74, 168, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 28px 0 0;
+}
+
+.row {
+    padding-top: 18px;
+}
+
+.input-form {
+    display: flex;
+    padding-top: 18px;
+}
+.place {
+    padding-left: 44px;
+}
+
+.arrow {
+    max-width: 50px;
+    padding: 0 8px;
+}
+
+.plane-departure img {
+    max-width: 35px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 755px;
+    left: 160px;
+}
+
+.plane-arrival img {
+    max-width: 35px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 755px;
+    left: 580px;
+}
+
+.place__input-left, .place__input-right {
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+    min-width: 364px;
+    min-height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(95, 95, 95, 1);
+    padding: 12px 30px 12px 80px;
+    position: relative;
+    z-index: 0;
+}
+
+.place__input-left {
+    background-image: url(../img/departures.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+
+.place__input-right {
+    background-image: url(../img/arrival.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+
+.calendar__departing, .calendar__returning  {
+    display: flex;
+    align-items: center;
+    min-width: 175px;
+    min-height: 48px;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+
+.calendar__departing p, .calendar__returning {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.calendar__departing span, .calendar__returning span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.calendar__departing img, .calendar__returning img {
+    max-width: 35px;
+    margin-left: 19px;
+}
+
+.date {
+    padding-left: 11px;
+}
+
+.date p {
+    padding-left: 10px;
+}
+
+.search-btn {
+    display: block;
+    background: rgba(31, 74, 168, 1);
+    min-width: 233px;
+    min-height: 60px;
+    border: none;
+    border-radius: 39px;
+    margin: 13px auto;
+}
+
+.search-btn a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+h3 {
+    max-width: 525px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 100px 0 27px 0;
+    margin-left: 100px;
+}
+
+.country {
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 31px;
+    padding-left: 100px;
+}
+
+.item-1 {
+    grid-area: 1 / 1 / 2 / 3; 
+    position: relative;
+    z-index: 0;
+}
+
+.item-2 {
+    grid-area: 1 / 3 / 3 / 4; 
+    position: relative;
+    z-index: 0;
+}
+
+.item-3 {
+    grid-area: 1 / 4 / 3 / 5; 
+    position: relative;
+    z-index: 0;
+}
+
+.item-4 {
+    grid-area: 2 / 1 / 3 / 2; 
+    position: relative;
+    z-index: 0;
+}
+
+.item-5 {
+    grid-area: 2 / 2 / 3 / 3; 
+    position: relative;
+    z-index: 0;
+}
+
+.item-1 p {
+    position:absolute;
+    z-index: 1;
+    left: 65px;
+    top: 185px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-2 p {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 480px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-3 p {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 480px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-4 p {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 160px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-5 p {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-1 span {
+    position:absolute;
+    z-index: 1;
+    left: 65px;
+    top: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-2 span {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 515px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-3 span {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 515px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-4 span {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 230px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item-5 span {
+    position:absolute;
+    z-index: 1;
+    left: 30px;
+    top: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pic-1 { 
+    width: 604px; 
+    border-radius: 14px;
+}
+
+.pic-2 { 
+    width: 285px; 
+    border-radius: 14px;
+}
+
+.pic-3 { 
+    width: 285px; 
+    border-radius: 14px;
+}
+
+.pic-4 { 
+    width: 285px; 
+    border-radius: 14px;
+}
+
+.pic-5 { 
+    width: 285px; 
+    border-radius: 14px;
+}
+
+h2 {
+    max-width: 227px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    padding: 100px 0 10px 0;
+    text-align: center;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.download-googleplay {
+    max-width: 320px;
+}
+
+.download-appstore {
+    max-width: 250px;
+}
+
+footer {
+    background-color: rgba(19, 59, 92, 1);
+    max-width: 1440px;
+}
+
+.footer {
+    display: flex;
+}
+
+.main-column {
+    padding: 40px 76px 0 100px;
+}
+
+.main-column img {
+    max-width: 140px;
+    padding-bottom: 82px;
+}
+
+.main-column p {
+    max-width: 245px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.column {
+    padding: 42px 50px 133px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.column p {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding-bottom: 10px;
+}
+
+.column ul {
+    padding: 0;
+    margin: 0;
+}
+
+.column a {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.fa-brands {
+    padding: 58px 32px 0 0;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.socials {
+    display: flex;
+}
